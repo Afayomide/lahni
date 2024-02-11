@@ -207,3 +207,9 @@ div .swiper-buttons{
     height: 12rem;
   }
 }
+@media (max-width: 360px) {
+    .clothes-container{
+        width: 8rem;
+    }
+    
+}

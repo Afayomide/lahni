@@ -30,10 +30,9 @@ function Home () {
   
     return(
         <div className="home"
-            style={{ backgroundPositionY: -scrollPosition * 0.5 + 'px' }}
+            
         >
-       
-
+       <div className="background" style={{ backgroundPositionY: -scrollPosition * 0.5 + 'px' }}/>
        
         <div className="home-swiper-container">
 

@@ -5,6 +5,7 @@ footer{
     color: #fff;
     z-index: 2;
     position: relative;
+    border-top: 2px solid #fff;
 }
 footer h2{
 font-weight: 700;
