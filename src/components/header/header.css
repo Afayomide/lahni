@@ -80,6 +80,15 @@ nav hr:hover{
   color: white;
   text-decoration: none;
 }
+.header-link:hover{
+  color: #666;
+  background-color: #fff;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left:.5rem;
+  padding-right: .9rem;
+  border-radius: 2rem;
+}
  .hamburger:hover{
     transform: rotate(90deg);
 } 

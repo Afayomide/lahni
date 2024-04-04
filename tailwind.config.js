@@ -17,3 +17,4 @@ module.exports = {
         require('flowbite/plugin')
     ]
     }
+7n

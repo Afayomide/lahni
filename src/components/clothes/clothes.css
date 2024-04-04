@@ -4,8 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    padding: 2.5rem 0;
-    margin-top: 1rem;
+    padding: 5rem 0;
 }
 
 .loader-container {
@@ -38,7 +37,7 @@
 
 .clothes-container{
     color: black;
-    margin: 0 .2rem;
+    margin: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,9 +48,11 @@
     margin:0;
 }
 .clothes-container img{   
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
     margin-top: 1rem;
-    width: 17rem;
-    height: 20rem;
+    width: 20rem;
+    height: 23rem;
 }
 
 .clothes-link{
@@ -152,8 +153,7 @@ div .swiper-buttons{
     margin: 2rem 0;
 }
 @media(max-width: 400px){
-    .swiper-slide div img{
-    }
+  
 }
 @media (max-width: 800px) {
     .swiper-slide div img{
@@ -178,8 +178,11 @@ div .swiper-buttons{
         height: 15rem;
     }
 }
+@media (max-width: 650) {
+    
+}
 
-@media (max-width: 500px) {
+@media (max-width: 470px) {
     .contain{
     margin-top: 5rem;
 }
@@ -189,7 +192,10 @@ div .swiper-buttons{
         font-size: 10px;
     }
     .type-container{
-        padding-top: 2.5rem;
+        padding-top: 5rem;
+    }
+    .clothes-container{
+        margin: .1rem;
     }
 .clothes-container img{
     width: 10rem;
@@ -209,7 +215,16 @@ div .swiper-buttons{
 }
 @media (max-width: 360px) {
     .clothes-container{
+        margin: .1rem;
         width: 8rem;
     }
     
+}
+@media (max-width: 270px) {
+    .clothes-container{
+        width: 80vw;
+    }
+    .clothes-container img{
+        width: 80vw
+    }
 }

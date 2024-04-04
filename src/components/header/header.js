@@ -16,6 +16,7 @@ import {
   Typography,
   Button,
   IconButton,
+  Collapse
 } from "@material-tailwind/react";
  
 function Header() {
@@ -207,11 +208,11 @@ function Header() {
        
       </div>
       </div>
-      <MobileNav open={openNav}>
+      <Collapse open={openNav}>
         <div>
           {navlistmobile}
         </div>
-      </MobileNav>
+      </Collapse>
     </Navbar>
   );
 }

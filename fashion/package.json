@@ -1,25 +1,14 @@
 {
-  "name": "lahni",
+  "name": "fashion",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emailjs/browser": "^3.11.0",
-    "@material-tailwind/react": "^2.1.6",
-    "@popperjs/core": "^2.11.8",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "flowbite": "^2.3.0",
-    "flowbite-react": "^0.7.2",
-    "popper.js": "^1.16.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.11.0",
-    "react-paystack": "^4.0.3",
-    "react-router-dom": "^6.18.0",
     "react-scripts": "5.0.1",
-    "swiper": "^11.1.0",
-    "tw-elements-react": "^1.0.0-alpha2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

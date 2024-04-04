@@ -44,8 +44,10 @@ function Cart () {
   const {setItems, items} = useContext(ItemContext)
 const stringItems = JSON.stringify(items)
 
+
 var total = ""
- 
+
+
 if(items){
    total = items.reduce((accumulator,obj) =>{
         return accumulator + obj.price;

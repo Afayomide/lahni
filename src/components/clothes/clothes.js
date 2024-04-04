@@ -57,14 +57,14 @@ const [loading, setLoading] = useState(true);
 }, [imgsrc]);
 
     return(
-        <FadeInSection>
+        <FadeInSection key={id}>
         <div className="clothes-container">
         <Link className="clothes-link " to={`/${id}`}> 
         {loading ?     (
           <div className="loader-container">
           <div className="spinner"></div>
       </div>) :
-           <img src={imgsrc} loading="lazy"/>}
+           <img alt={id} src={imgsrc} loading="lazy"/>}
            </Link>
            <div className="link-button-container">
         <div className="link-button">

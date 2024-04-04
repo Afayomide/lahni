@@ -32,7 +32,7 @@ function Home () {
         <div className="home"
             
         >
-       <div className="background" style={{ backgroundPositionY: -scrollPosition * 0.5 + 'px' }}/>
+       <div className="background" style={{ backgroundPositionY: -scrollPosition * 0.2 + 'px' }}/>
        
         <div className="home-swiper-container">
 

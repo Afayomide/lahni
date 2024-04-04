@@ -71,7 +71,7 @@ const [add, setAdd] = useState("Add to Cart")
            </SwiperSlide>
            <SwiperSlide className="swiper-slide">
            <div>
-                    <img className="each-pic" src={each.closeimgsrc} loading="lazy"/>
+                    <img alt={each.name} className="each-pic" src={each.closeimgsrc} loading="lazy"/>
 
            </div>
            </SwiperSlide>
